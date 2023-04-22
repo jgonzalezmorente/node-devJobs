@@ -61,6 +61,7 @@ h3 {
 .btn-azul {
     background-color: #00A4B6;
 }
+
 .btn-azul:hover {
     background-color: rgb(3, 133, 148);
 }
@@ -514,4 +515,10 @@ p.candidatos {
 .enviar-datos p {
     color: white;
     font-size: 1.8rem;
+}
+
+.contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
