@@ -30,5 +30,9 @@ module.exports = {
             });            
         }
         return alertas.fn().html = html;
+    },
+
+    json: ( object, json ) => {
+        return JSON.stringify( object, null, 3 );
     }
 }
